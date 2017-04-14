@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lovemaiqi.comp423.View.PlanResult"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/result_plan_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/string_plan_name_default"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/result_plan_city"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/string_wellington"/>
+        <TextView
+            android:id="@+id/result_plan_cost"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/string_place_price_default"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/resultlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<ImageView-->
+                    <!--android:layout_alignParentTop="true"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="200dp"-->
+                    <!--android:id="@+id/plan_city"-->
+                    <!--android:paddingLeft="0dp"-->
+                    <!--android:paddingRight="0dp"-->
+                    <!--android:src="@drawable/img_wellington1" />-->
+                <!--<TextView-->
+                    <!--android:paddingBottom="10dp"-->
+                    <!--android:paddingLeft="10dp"-->
+
+                    <!--android:layout_alignBottom="@id/plan_city"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/string_wellington"/>-->
+            <!--</RelativeLayout>-->
+            <!--<ListView-->
+                <!--android:id="@+id/resultlist"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+            <!--</ListView>-->
+        </LinearLayout>
+    </ScrollView>
+    <!--<LinearLayout-->
+        <!--android:gravity="center"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/string_make_new_plan"/>-->
+
+    <!--</LinearLayout>-->
+</LinearLayout>

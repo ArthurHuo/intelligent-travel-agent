@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">COMP423</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_makeplans">Make Plans</string>
+    <string name="btn_existignplans">Existing Plans</string>
+    <string name="btn_setting">Setting</string>
+    <string name="string_wellington">Wellington</string>
+    <string name="title_activity_plan_search">PlanSearch</string>
+    <string name="string_plan_search_title">Where to go?</string>
+    <string name="guessyoulike">Guess you like:</string>
+    <string name="morecities">More Cities</string>
+    <string name="next">Next</string>
+    <string name="title_activity_plan_setting">PlanSetting</string>
+    <string name="back">Back</string>
+    <string name="title_makeplans">Make Plan!</string>
+    <string name="btn_travel_start">Start Date:</string>
+    <string name="btn_travel_end">End Date:</string>
+    <string name="date">30/04/2015</string>
+    <string name="string_sameassetting">Same as Setting</string>
+    <string name="string_yes">YES</string>
+    <string name="string_no">NO</string>
+    <string name="string_skipbeento">Skip places already been to</string>
+    <string name="string_sightseeing">Sightseeing</string>
+    <string name="string_museum">Museums</string>
+    <string name="string_religious">Religious</string>
+    <string name="string_park">Parks</string>
+    <string name="string_pace">Pace Preference: </string>
+    <string name="title_activity_plan_result">PlanResult</string>
+    <string name="string_make_new_plan">Make a new plan</string>
+    <string name="string_place_name_default">Te Papa</string>
+    <string name="string_place_price_default">$ 20</string>
+    <string name="desc_result_default">The Museum of New Zealand Te Papa Tongarewa is the national museum and art gallery of New Zealand, located in Wellington. It is branded and commonly known as Te Papa and Our Place; "Te Papa Tongarewa" is broadly translatable as "the place of treasures of this land".</string>
+    <string name="string_plan_name_default">Trip to Wellington</string>
+    <string name="title_activity_plan_list">PlanList</string>
+    <string name="string_natural_landscape">Natural Landscape</string>
+    <string name="string_cultural_landscape">Cultural Landscape</string>
+    <string name="string_pace_default">Medium</string>
+    <string name="string_budget">Budget: </string>
+    <string name="string_avgtime">Avgrage Time:</string>
+    <string name="string_avgtime_default">2</string>
+    <string name="string_avgtime_hour">hour(s)</string>
+    <string name="string_no_data">No Data</string>
+    <string name="string_use_recommendation">Use Recommendation</string>
+    <string name="string_sports">Sprots</string>
+    <string name="title_activity_plan_map">Map</string>
+
+</resources>

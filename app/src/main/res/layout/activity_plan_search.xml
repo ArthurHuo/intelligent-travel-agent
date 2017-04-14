@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lovemaiqi.comp423.View.PlanSearch"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_plan_search_title"/>
+    </RelativeLayout>
+    <!--<ImageView-->
+        <!--android:paddingBottom="5dp"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/btn_plan_search"-->
+        <!--android:paddingLeft="0dp"-->
+        <!--android:paddingRight="0dp"-->
+        <!--android:src="@drawable/btn_search" />-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/plan_context"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/text_guessyoulike"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_grey">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/guessyoulike"/>
+            </RelativeLayout>
+        <TableLayout
+            android:paddingBottom="5dp"
+            android:layout_below="@id/text_guessyoulike"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/table_guessyoulike"
+            >
+            <TableRow>
+                <Button android:id="@+id/search_btn_rec_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/string_wellington"/>
+                <Button android:id="@+id/search_btn_rec_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/string_no_data"/>
+                <Button android:id="@+id/search_btn_rec_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/string_no_data"/>
+            </TableRow>
+            <TableRow>
+                <Button android:id="@+id/search_btn_rec_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/string_no_data"/>
+                <Button android:id="@+id/search_btn_rec_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/string_no_data"/>
+                <Button android:id="@+id/search_btn_rec_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/string_no_data"/>
+            </TableRow>
+            <TableRow>
+                <Button android:id="@+id/search_btn_rec_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/string_no_data"/>
+                <Button android:id="@+id/search_btn_rec_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/string_no_data"/>
+                <Button android:id="@+id/search_btn_rec_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/string_no_data"/>
+            </TableRow>
+        </TableLayout>
+            <RelativeLayout
+                android:paddingBottom="5dp"
+                android:layout_below="@id/table_guessyoulike"
+                android:id="@+id/text_morecities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_grey">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/morecities"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_gravity="bottom|center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+    <!--<Button-->
+        <!--android:id="@+id/plan_search_makeplan"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/next"/>-->
+    </LinearLayout>
+</LinearLayout>
