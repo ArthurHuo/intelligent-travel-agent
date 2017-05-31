@@ -1,7 +1,7 @@
 # Intelligent Travel Agent
 
 Android application that provides smart travel suggestions
-Android application that provides smart travel suggestions
+
 
 
 This project created an Android application that provides smart travel suggestions within several cities in New Zealand for self-driving travel based on user preferences. This application was developed with Java for Android environment. SQLite database management system was used to process a large amount of data. UI design and machine learning techniques were also involved.
